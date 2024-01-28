@@ -1,0 +1,21 @@
+class Calculation{
+
+public void add(int a , int b){
+    int sum = a+b;
+System.out.println("Sum is:" + sum);
+}
+
+public void  subtract(int a , int b){
+    int difference = a-b;
+System.out.println("Difference is:" + difference);
+}
+}
+public class Program18 {
+    public static void main(String args[]){
+    Calculation ob = new Calculation();
+    ob.add(4,5);
+    ob.subtract(7,3);
+    
+    }
+    
+}
